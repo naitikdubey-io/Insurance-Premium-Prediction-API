@@ -5,7 +5,7 @@ A production-ready machine learning service that predicts insurance premiums usi
 
 ## 🚀 Features
 * **Machine Learning Model:** Random Forest Classifier with **90% accuracy**.
-* **REST API:** Built with FastAPI for high-performance asynchronous endpoints.
+* **API:** Built with FastAPI for high-performance asynchronous endpoints.
 * **Data Validation:** Strict schema enforcement using Pydantic models.
 * **Containerization:** Dockerized environment for "plug-and-play" deployment.
 * **Auto-Documentation:** Interactive Swagger UI available at `/docs`.
