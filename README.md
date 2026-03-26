@@ -80,18 +80,13 @@ The model was trained on the [Dataset Name, e.g., Medical Cost Personal Dataset]
 
 ## 📂 Project Structure
 ```text
-├── pydantic/            # Pydantic schema definitions
-├── myenv/               # Virtual environment (local only)
+├── model/               # ML assets (model.pkl, model.ipynb, insurance.csv)
+├── schema/              # API request/response data schemas
 ├── app.py               # Main application entry point
-├── main.py              # FastAPI routes and logic
-├── frontend.py          # Frontend UI implementation
-├── model.ipynb          # Jupyter notebook for model training
-├── model.pkl            # Trained Random Forest model (serialized)
-├── insurance (1).csv    # Training dataset
-├── patients.json        # Sample data for testing
-├── Dockerfile           # Docker configuration
-├── requirements.txt     # Project dependencies
-└── __pycache__/        # Compiled Python files
+├── frontend.py          # User interface (Streamlit/UI)
+├── Dockerfile           # Docker container configuration
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 ```
 
 ---
